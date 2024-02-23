@@ -1,6 +1,6 @@
 {'robot1': {
-
     'start': 1,
+    'strategy': 'macd'
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
     'leverage': 20,
@@ -19,12 +19,17 @@
     'matin': 0,
     'm_type': 1,
     'breakeven': 99,
-    'del_record': 1
-
+    'del_record': 1,
+    'macd':{
+    },
+    'rsi':{
+    },
+    'bidrection':{
+    },
 },
 'robot2': {
-
     'start': 1,
+    'strategy': 'macd'
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
     'leverage': 20,
@@ -43,7 +48,14 @@
     'matin': 0,
     'm_type': 1,
     'breakeven': 99,
-    'del_record': 1
-
+    'del_record': 1,
+    'macd':{
+    },
+    'rsi':{
+    },
+    'bidrection':{
+    'buy_pri': 0,
+    'sell_pri': 0,
+    },    
 },
 }
