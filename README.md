@@ -1,6 +1,6 @@
 {'robot1': {
 
-    'start': 1,
+    'start': 1, #0为关闭，1为开启
     'strategy':'macd',
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
