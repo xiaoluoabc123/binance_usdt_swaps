@@ -19,6 +19,9 @@
     'add_loss': 0,
     'matin': 0,
     'm_type': 1,
+    'm_loss': 6,
+    'm_muti': 1.5,
+    'm_lever': 3,
     'breakeven': 99,
     'del_record': 1,
     'macd':{
@@ -34,7 +37,7 @@
 'robot2': {
 
     'start': 1,
-    'strategy': 'macd',
+    'strategy':'macd',
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
     'leverage': 20,
@@ -52,6 +55,9 @@
     'add_loss': 0,
     'matin': 0,
     'm_type': 1,
+    'm_loss': 6,
+    'm_muti': 1.5,
+    'm_lever': 3,
     'breakeven': 99,
     'del_record': 1,
     'macd':{
