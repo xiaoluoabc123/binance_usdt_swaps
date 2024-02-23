@@ -28,7 +28,7 @@
     },
     'rsi':{
     },
-    'bidrection':{
+    'manual':{
     'buy_pri': 0,
     'sell_pri': 0,
     
@@ -64,7 +64,7 @@
     },
     'rsi':{
     },
-    'bidrection':{
+    'manual':{
     'buy_pri': 0,
     'sell_pri': 0,
     
