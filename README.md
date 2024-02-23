@@ -1,7 +1,7 @@
 {'robot1': {
 
     'start': 1,
-    'strategy': 'macd'
+    'strategy':'macd',
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
     'leverage': 20,
@@ -34,7 +34,7 @@
 'robot2': {
 
     'start': 1,
-    'strategy': 'macd'
+    'strategy': 'macd',
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
     'leverage': 20,
