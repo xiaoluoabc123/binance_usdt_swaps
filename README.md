@@ -3,7 +3,7 @@
     'start': 1,
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
-    'leverage': 20
+    'leverage': 20,
     'multiple': 4,
     'direct': 1,
     'pr_type': 1,
@@ -27,7 +27,7 @@
     'start': 1,
     'symbol': 'ACH/USDT:USDT',
     'period':'3m',
-    'leverage': 20
+    'leverage': 20,
     'multiple': 4,
     'direct': 1,
     'pr_type': 1,
