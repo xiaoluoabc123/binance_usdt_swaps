@@ -1,4 +1,5 @@
 {'robot1': {
+
     'start': 1,
     'strategy': 'macd'
     'symbol': 'ACH/USDT:USDT',
@@ -27,9 +28,11 @@
     'bidrection':{
     'buy_pri': 0,
     'sell_pri': 0,
+    
     },
 },
 'robot2': {
+
     'start': 1,
     'strategy': 'macd'
     'symbol': 'ACH/USDT:USDT',
@@ -58,6 +61,7 @@
     'bidrection':{
     'buy_pri': 0,
     'sell_pri': 0,
+    
     },    
 },
 }
