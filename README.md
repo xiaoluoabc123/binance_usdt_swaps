@@ -1,4 +1,4 @@
-robot1 = {
+{'robot1': {
 
     'start': 1,
     'symbol': 'ACH/USDT:USDT',
@@ -19,7 +19,7 @@ robot1 = {
     'del_record': 1
 
 },
-robot2 = {
+'robot2': {
 
     'start': 1,
     'symbol': 'ACH/USDT:USDT',
@@ -40,3 +40,4 @@ robot2 = {
     'del_record': 1
 
 },
+}
