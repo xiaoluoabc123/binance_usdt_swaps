@@ -25,6 +25,8 @@
     'rsi':{
     },
     'bidrection':{
+    'buy_pri': 0,
+    'sell_pri': 0,
     },
 },
 'robot2': {
