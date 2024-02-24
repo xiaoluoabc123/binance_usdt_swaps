@@ -556,7 +556,8 @@
     
     },
   
-'robot16': {
+'robot16': 
+    {
 
     'start': 1, #0为关闭，1为开启
     'strategy':'macd', #策略名称
