@@ -507,7 +507,7 @@
 'robot15': {
 
     'start': 1, #0为关闭，1为开启
-    'strategy':'macd', #策略名称
+    'strategy':'trend_track', #策略名称
     'symbol': 'ALPHA/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -539,6 +539,7 @@
     'sell_pri': 0, #手动卖空价
     
     }, #手动策略相关参数
+    
     },
   
 'robot16': {
