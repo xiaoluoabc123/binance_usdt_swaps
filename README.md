@@ -26,16 +26,16 @@
     'm_lever': 3, #马丁每层下单次数
     'breakeven': 99, #保本退出，即在指定亏损次数后根据亏损额自动生成止盈位置
     'del_record': 1, #删除记录，建议策略开始时设置为1
-    'macd':{
+    'pullback_trading':{
     }, #回踩买入
-    'rsi':{
+    'upswing_trend':{
     }, #回升买入
+    'trend_track':{    
+    }, #强趋势追踪
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'trend_track':{    
-    }, #强趋势追踪
     'grid_trading':{ 
     'grid_deep' = 4, # 网格深度
     'grid_rate' = 1, #网格每次加仓间隔率
