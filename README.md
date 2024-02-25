@@ -48,7 +48,7 @@
 
 'robot2': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'NKN/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -93,7 +93,7 @@
 
 'robot3': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'MTL/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -138,7 +138,7 @@
 
 'robot4': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'RLC/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -183,7 +183,7 @@
 
 'robot5': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'AGIX/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -228,7 +228,7 @@
 
 'robot6': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'MASK/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -273,7 +273,7 @@
   
 'robot7': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'CVX/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -363,7 +363,7 @@
   
 'robot9': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'MDT/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -408,7 +408,7 @@
   
 'robot10': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'GTC/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -453,7 +453,7 @@
   
 'robot11': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'GAL/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -498,7 +498,7 @@
   
 'robot12': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'PHB/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -543,7 +543,7 @@
   
 'robot13': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'ALT/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -588,7 +588,7 @@
   
 'robot14': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'LOOM/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -680,7 +680,7 @@
 'robot16': 
     {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'macd', #策略名称
     'symbol': 'ACH/USDT:USDT', #品种名称
     'period':'3m', #周期
