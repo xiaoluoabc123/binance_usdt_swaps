@@ -262,7 +262,7 @@
 'robot8': {
 
     'start': 1, #0为关闭，1为开启
-    'strategy':'macd', #策略名称
+    'strategy':'trend_track', #策略名称
     'symbol': 'GLM/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
