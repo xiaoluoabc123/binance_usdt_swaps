@@ -261,7 +261,7 @@
   
 'robot8': {
 
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'strategy':'trend_track', #策略名称
     'symbol': 'GLM/USDT:USDT', #品种名称
     'period':'3m', #周期
