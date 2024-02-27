@@ -691,6 +691,7 @@
 'robot16': {
     
     'start': 1, #0为关闭，1为开启
+    'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'ALICE/USDT:USDT', #品种名称
     'period':'3m', #周期
@@ -714,7 +715,6 @@
     'm_muti': 1.5, #叠加马丁下单倍数
     'm_lever': 3, #叠加马丁每层下单次数
     'breakeven': 5, #保本退出，即在指定亏损次数后根据亏损额自动生成止盈位置
-    'del_record': 1, #删除记录，建议策略开始时设置为1
     'pullback_trading':{
     }, #回踩买入
     'upswing_trend':{
