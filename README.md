@@ -43,6 +43,11 @@
     'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
+    'combination':{
+    'combin_name': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
+    'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
+    }, #组合策略
     
     },
 
