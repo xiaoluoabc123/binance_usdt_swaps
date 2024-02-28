@@ -4,7 +4,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'ALICE/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -47,7 +47,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -110,7 +110,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'GLM/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -153,7 +153,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -216,7 +216,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'DAR/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -259,7 +259,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -269,7 +269,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'FXS/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -312,7 +312,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -322,7 +322,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'PYTH/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -365,7 +365,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -375,7 +375,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'COTI/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -418,7 +418,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -428,7 +428,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'trend_track', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': '1000SHIB/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -471,7 +471,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -481,7 +481,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'trend_track', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'TOKEN/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -524,7 +524,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -534,7 +534,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'AR/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -577,7 +577,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -587,7 +587,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'SUPER/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -630,7 +630,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
@@ -640,7 +640,7 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'trend_track', #策略名称
+    'strategy':'combination', #策略名称
     'symbol': 'JASMY/USDT:USDT', #品种名称
     'period':'3m', #周期
     'leverage': 20, #杠杆
@@ -683,7 +683,7 @@
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
     'combination':{
-    'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
+    'combin_names': ['trend_track','pullback_trading'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
     'combin_params': 3, #策略组合方式的附加参数，对应方式1，形式为整数如1，对应方式2，形式为数组，如[2,8,10,12]注意次数组长度要小于策略数组长度
     }, #组合策略
