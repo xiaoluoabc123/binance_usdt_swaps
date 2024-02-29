@@ -165,7 +165,7 @@
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'grid_trading', #策略名称
     'symbol': 'RLC/USDT:USDT', #品种名称
-    'period':'3m', #周期
+    'period':'1m', #周期
     'leverage': 20, #杠杆
     'multiple': 1, #下单倍数，初始1U
     'direct': 1, #指定交易方向，0为多空，1为多，-1为空
