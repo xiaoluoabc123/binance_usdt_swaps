@@ -55,7 +55,7 @@
   
 'robot_2': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'pullback_tradingk', #策略名称
     'symbol': 'OMG/USDT:USDT', #品种名称
@@ -442,7 +442,7 @@
   
 'robot_9': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'pullback_trading', #策略名称
     'symbol': 'LUNA2/USDT:USDT', #品种名称
