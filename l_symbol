@@ -116,7 +116,7 @@
   
 'robot_3': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'GLM/USDT:USDT', #品种名称
