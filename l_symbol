@@ -2,7 +2,7 @@
   
 'robot_1': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'ALICE/USDT:USDT', #品种名称
@@ -230,7 +230,7 @@
   
 'robot_5': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'DAR/USDT:USDT', #品种名称
@@ -283,7 +283,7 @@
   
 'robot_6': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'FXS/USDT:USDT', #品种名称
@@ -336,7 +336,7 @@
   
 'robot_7': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'PYTH/USDT:USDT', #品种名称
@@ -511,7 +511,7 @@
   
 'robot_10': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'TOKEN/USDT:USDT', #品种名称
@@ -617,7 +617,7 @@
   
 'robot_12': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'SUPER/USDT:USDT', #品种名称
@@ -670,7 +670,7 @@
   
 'robot_13': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'JASMY/USDT:USDT', #品种名称
@@ -723,7 +723,7 @@
   
 'robot_14': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'combination', #策略名称
     'symbol': 'ACE/USDT:USDT', #品种名称
