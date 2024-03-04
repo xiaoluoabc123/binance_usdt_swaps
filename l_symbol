@@ -983,7 +983,7 @@
     
     'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'break_trading', #策略名称
     'symbol': '1000BONK/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -1010,6 +1010,8 @@
     'breakeven': 10, #保本退出，即在指定亏损次数后根据亏损额自动生成止盈位置
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
+    'ms_trig_rate': 1000, #触发移动止损线盈利率，初始设置1000即不开启
+    'move_stop_rate': 1, #止损线较于开仓线移动率，与ms_trig_rate协同使用
     'pullback_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
@@ -1031,6 +1033,10 @@
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #强趋势追踪
+    'break_trading':{
+    'open_mode': 1, #1策略，2即时突破
+    'range_rate': 1, #即时突破上下轨据中轴线差值率
+    }, #突破策略
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
