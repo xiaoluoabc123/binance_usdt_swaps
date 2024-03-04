@@ -86,7 +86,7 @@
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
     'open_mode': 3, #1顺势，2突破日价，3指定突破
-    'open_status': 1, #1不稳定，2稳定
+    'open_status': 2, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
