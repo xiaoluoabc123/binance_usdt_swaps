@@ -1034,7 +1034,7 @@
     'sp_pr_bear': 1, #指定突破做空价格
     }, #强趋势追踪
     'break_trading':{
-    'open_mode': 1, #1策略，2即时突破
+    'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
     }, #突破策略(测试)
     'manual':{
