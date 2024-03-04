@@ -58,7 +58,7 @@
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'pullback_trading', #策略名称
-    'symbol': 'GLM/USDT:USDT', #品种名称
+    'symbol': '1000BONK/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
     'multiple': 3, #下单倍数，初始1U
@@ -86,7 +86,7 @@
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
     'open_mode': 3, #1顺势，2突破日价，3指定突破
-    'open_status': 2, #1不稳定，2稳定
+    'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
