@@ -989,13 +989,13 @@
   
 'robot_14': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
-    'symbol': '1000BONK/USDT:USDT', #品种名称
+    'strategy':'grid_trading', #策略名称
+    'symbol': 'CELO/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
-    'multiple': 3, #下单倍数，初始1U
+    'multiple': 1, #下单倍数，初始1U
     'direct': 1, #指定交易方向，0为多空，1为多，-1为空
     'pr_type': 1, #止盈类型：1为亏损加设定止盈率，2为单止盈不叠加亏损，3为移动止盈
     'prbull': 50, #多头止盈率
@@ -1010,7 +1010,7 @@
     'add_pos': 0, #加仓，0为不加仓，大于0为加仓倍数，初始为1U
     'add_rate': 0.2, #加仓线，为止损线正向叠加率
     'add_loss': 0, #亏损次数以上叠加
-    'matin': 1, #开启叠加马丁
+    'matin': 0, #开启叠加马丁
     'm_type': 1, #叠加马丁类型 1为总计数叠加，2为多空分别计算叠加
     'm_loss': 5, #叠加马丁最高亏算次数
     'm_muti': 1.5, #叠加马丁下单倍数
@@ -1052,7 +1052,7 @@
     'grid_trading':{ 
     'or_type': 2, # 1，即时下单，2，反向下单
     'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
+    'grid_rate': 4, #网格每次加仓间隔率
     'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
     'grid_mult': 1, #倍数马丁加仓率
     }, #网格交易
