@@ -32,7 +32,7 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
@@ -46,7 +46,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -102,13 +102,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -116,7 +116,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -172,13 +172,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -186,7 +186,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -240,15 +240,14 @@
     'm_lever': 2, #叠加马丁每层下单次数
     'breakeven': 10, #保本退出，即在指定亏损次数后根据亏损额自动生成止盈位置
     'reduce_rate': -1, #减仓率
-    'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -256,7 +255,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -312,13 +311,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -326,7 +325,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -382,13 +381,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -396,7 +395,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -452,13 +451,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -466,7 +465,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -522,13 +521,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -536,7 +535,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -592,13 +591,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -606,7 +605,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -662,13 +661,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -676,7 +675,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -732,13 +731,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -746,7 +745,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -802,13 +801,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -816,7 +815,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -872,13 +871,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -886,7 +885,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -948,7 +947,7 @@
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -956,7 +955,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
@@ -1012,13 +1011,13 @@
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'pullback_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #回踩交易
     'relay_trading':{
-    'open_mode': 3, #1顺势，2突破日价，3指定突破
+    'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     }, #中继交易
@@ -1026,7 +1025,7 @@
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
-    }, #回升买入
+    }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
