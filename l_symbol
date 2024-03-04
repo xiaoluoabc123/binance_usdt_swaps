@@ -913,10 +913,10 @@
   
 'robot_13': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
-    'symbol': '1000BONK/USDT:USDT', #品种名称
+    'strategy':'relay_trading', #策略名称
+    'symbol': 'CKB/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
     'multiple': 3, #下单倍数，初始1U
@@ -939,7 +939,7 @@
     'm_loss': 5, #叠加马丁最高亏算次数
     'm_muti': 1.5, #叠加马丁下单倍数
     'm_lever': 2, #叠加马丁每层下单次数
-    'breakeven': 10, #保本退出，即在指定亏损次数后根据亏损额自动生成止盈位置
+    'breakeven': 5, #保本退出，即在指定亏损次数后根据亏损额自动生成止盈位置
     'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'ms_trig_rate': 1000, #触发移动止损线盈利率，初始设置1000即不开启
