@@ -864,7 +864,7 @@
     'm_muti': 1.5, #叠加马丁下单倍数
     'm_lever': 2, #叠加马丁每层下单次数
     'breakeven': 10, #保本退出，即在指定亏损次数后根据亏损额自动生成止盈位置
-    'reduce_rate': 1, #减仓率
+    'reduce_rate': -1, #减仓率
     'reduce_pos': 30, #减仓额
     'ms_trig_rate': 0.7, #触发移动止损线盈利率，初始设置1000即不开启
     'move_stop_rate': 0.1, #止损线较于开仓线移动率，与ms_trig_rate协同使用
