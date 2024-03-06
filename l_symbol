@@ -38,37 +38,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
-    'manual':{
-    'buy_pri': 0, #手动买多价
-    'sell_pri': 0, #手动卖空价
-    }, #手动策略相关参数
     'grid_trading':{ 
     'or_type': 2, # 1，即时下单，2，反向下单
     'grid_deep': 4, # 网格深度
     'grid_rate': 4, #网格每次加仓间隔率
     'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
     'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #网格交易
+    'manual':{
+    'buy_pri': 0, #手动买多价
+    'sell_pri': 0, #手动卖空价
+    }, #手动策略相关参数
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -114,37 +120,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -190,37 +202,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -265,37 +283,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -341,37 +365,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -417,37 +447,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -493,37 +529,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -569,37 +611,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -645,37 +693,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -721,37 +775,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -797,37 +857,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -873,37 +939,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -949,37 +1021,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -1025,37 +1103,43 @@
     'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
-    'manual':{
-    'buy_pri': 0, #手动买多价
-    'sell_pri': 0, #手动卖空价
-    }, #手动策略相关参数
     'grid_trading':{ 
     'or_type': 2, # 1，即时下单，2，反向下单
     'grid_deep': 4, # 网格深度
     'grid_rate': 4, #网格每次加仓间隔率
     'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
     'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #网格交易
+    'manual':{
+    'buy_pri': 0, #手动买多价
+    'sell_pri': 0, #手动卖空价
+    }, #手动策略相关参数
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
@@ -1098,40 +1182,46 @@
     'move_stop_rate': 1, #止损线较于开仓线移动率，与ms_trig_rate协同使用
     'pullback_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
-    'open_status': 3, #1不稳定，2稳定
+    'open_status': 1, #1不稳定，2稳定
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #回踩交易
     'relay_trading':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #中继交易
     'upswing_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #攀升交易
     'trend_track':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'sp_pr_bull': 1, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #强趋势追踪
     'break_trading':{
     'open_mode': 2, #1策略，2即时突破
     'range_rate': 1, #即时突破上下轨据中轴线差值率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
     }, #突破策略(测试)
+    'grid_trading':{ 
+    'or_type': 2, # 1，即时下单，2，反向下单
+    'grid_deep': 4, # 网格深度
+    'grid_rate': 4, #网格每次加仓间隔率
+    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
+    'grid_mult': 1, #倍数马丁加仓率
+    'growth_fil': 4, # 涨势过滤 0为不开启，其他正数为比率
+    }, #网格交易
     'manual':{
     'buy_pri': 0, #手动买多价
     'sell_pri': 0, #手动卖空价
     }, #手动策略相关参数
-    'grid_trading':{ 
-    'or_type': 2, # 1，即时下单，2，反向下单
-    'grid_deep': 4, # 网格深度
-    'grid_rate': 1, #网格每次加仓间隔率
-    'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
-    'grid_mult': 1, #倍数马丁加仓率
-    }, #网格交易
     'combination':{
     'combin_names': ['trend_track','upswing_trend','pullback_trading','manual'], #策略组合名称
     'combin_mode': 1, #策略组合方式：1，间隔亏损次数更换，2，间隔指定次数更换
