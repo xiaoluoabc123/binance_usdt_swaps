@@ -2,9 +2,9 @@
   
 'robot_1': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': '1000PEPE/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -84,9 +84,9 @@
   
 'robot_2': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': '1000BONK/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -166,9 +166,9 @@
   
 'robot_3': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': 'GLM/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -248,9 +248,9 @@
   
 'robot_4': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': 'PEOPLE/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -329,9 +329,9 @@
   
 'robot_5': {
     
-    'start': 0, #0为关闭，1为开启
+    'start':1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': 'AXL/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -411,9 +411,9 @@
   
 'robot_6': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': 'JASMY/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -493,9 +493,9 @@
   
 'robot_7': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': 'CFX/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -575,10 +575,10 @@
   
 'robot_8': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
-    'symbol': '1000BONK/USDT:USDT', #品种名称
+    'strategy':'relay_trading', #策略名称
+    'symbol': 'SPELL/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
     'multiple': 3, #下单倍数，初始1U
@@ -659,7 +659,7 @@
     
     'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': 'WAVES/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -741,7 +741,7 @@
     
     'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': '1000BONK/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
@@ -823,7 +823,7 @@
     
     'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'pullback_trading', #策略名称
+    'strategy':'relay_trading', #策略名称
     'symbol': '1000BONK/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
