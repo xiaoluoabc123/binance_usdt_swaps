@@ -1294,7 +1294,7 @@
     'move_stop_rate': 1, #止损线较于开仓线移动率，与ms_trig_rate协同使用
     'oscil_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
-    'open_status': 3, #1震荡，2趋势，3趋势震荡
+    'open_status': 1, #1震荡，2趋势，3趋势震荡
     'draw_rate' : 0.8, #回调比率
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
