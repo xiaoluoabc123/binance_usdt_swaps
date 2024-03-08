@@ -92,7 +92,7 @@
   
 'robot_2': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'relay_trading', #策略名称
     'symbol': '1000BONK/USDT:USDT', #品种名称
@@ -935,7 +935,7 @@
     'oscil_trend':{
     'open_mode': 1, #1顺势，2突破日价，3指定突破
     'open_status': 1, #1震荡，2趋势，3趋势震荡
-    'draw_rate' : 0.8, #回调比率
+    'draw_rate' : 0.9, #回调比率
     'sp_pr_bull': 0.5049, #指定突破做多价格
     'sp_pr_bear': 1, #指定突破做空价格
     'growth_fil': 3, # 涨势过滤 0为不开启，其他正数为比率
