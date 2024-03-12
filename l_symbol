@@ -1263,8 +1263,8 @@
     
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
-    'strategy':'oscil_trend', #策略名称
-    'symbol': 'BTC/USDC:USDC', #品种名称
+    'strategy':'grid_trading', #策略名称
+    'symbol': 'CELO/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 100, #杠杆
     'multiple': 1, #下单倍数，初始1U
@@ -1274,7 +1274,7 @@
     'prbear': 0.8, #空头止盈率
     'activationRate': 3, #移动止盈触发盈利率
     'callbackRate': 1, #移动止盈触发止盈回撤率
-    'st_type': 3, #止损类型，0为不止损，1，为策略止损，3为固定止损
+    'st_type': 4, #止损类型，0为不止损，1，为策略止损，3为固定止损
     'st_times': 99, #最大止损次数
     'st_rate': 1.5, #固定止损率
     'li_profit_times': 99, #全局最大盈利次数
