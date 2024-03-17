@@ -2,7 +2,7 @@
   
 'robot_1': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'grid_trading', #策略名称
     'symbol': 'STORJ/USDT:USDT', #品种名称
@@ -92,7 +92,7 @@
   
 'robot_2': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'grid_trading', #策略名称
     'symbol': '1000SATS/USDT:USDT', #品种名称
@@ -182,7 +182,7 @@
   
 'robot_3': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'grid_trading', #策略名称
     'symbol': 'ACH/USDT:USDT', #品种名称
@@ -272,7 +272,7 @@
   
 'robot_4': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'grid_trading', #策略名称
     'symbol': 'LINA/USDT:USDT', #品种名称
@@ -905,7 +905,7 @@
     'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'grid_trading', #策略名称
-    'symbol': 'BTC/USDC:USDC', #品种名称
+    'symbol': 'BTC/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 100, #杠杆
     'multiple': 1, #下单倍数，初始1U
@@ -915,7 +915,7 @@
     'prbear': 0.6, #空头止盈率
     'activationRate': 3, #移动止盈触发盈利率
     'callbackRate': 1, #移动止盈触发止盈回撤率
-    'st_type': 3, #止损类型，0为不止损，1，为策略止损，3为固定止损
+    'st_type': 5, #止损类型，0为不止损，1，为策略止损，3为固定止损
     'st_times': 99, #最大止损次数
     'st_rate': 0.3, #固定止损率
     'li_profit_times': 99, #全局最大盈利次数
@@ -973,7 +973,7 @@
     }, #突破策略(测试)
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
-    'grid_deep': 10, # 网格深度
+    'grid_deep': 4, # 网格深度
     'grid_rate': 0.7, #网格每次加仓间隔率
     'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
     'grid_mult': 1, #倍数马丁加仓率
@@ -992,7 +992,7 @@
   
 'robot_12': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'manual', #策略名称
     'symbol': 'BTC/USDT:USDT', #品种名称
@@ -1095,7 +1095,7 @@
     'prbear': 0.6, #空头止盈率
     'activationRate': 3, #移动止盈触发盈利率
     'callbackRate': 1, #移动止盈触发止盈回撤率
-    'st_type': 3, #止损类型，0为不止损，1，为策略止损，3为固定止损
+    'st_type': 5, #止损类型，0为不止损，1，为策略止损，3为固定止损
     'st_times': 99, #最大止损次数
     'st_rate': 0.3, #固定止损率
     'li_profit_times': 99, #全局最大盈利次数
@@ -1153,7 +1153,7 @@
     }, #突破策略(测试)
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
-    'grid_deep': 10, # 网格深度
+    'grid_deep': 4, # 网格深度
     'grid_rate': 0.7, #网格每次加仓间隔率
     'g_add_type': 1,  #网格加仓类型：1为固定加仓，2为倍数加仓
     'grid_mult': 1, #倍数马丁加仓率
