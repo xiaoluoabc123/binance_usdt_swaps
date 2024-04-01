@@ -40,7 +40,7 @@
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
     'draw_rate' : 0.35, #回调级别
-    'growth_fil': 1, # 涨势过滤 0为不开启，其他正数为比率
+    'growth_fil': 3, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
@@ -101,7 +101,7 @@
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
     'draw_rate' : 0.35, #回调级别
-    'growth_fil': 1, # 涨势过滤 0为不开启，其他正数为比率
+    'growth_fil': 3, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
@@ -162,7 +162,7 @@
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
     'draw_rate' : 0.35, #回调级别
-    'growth_fil': 1, # 涨势过滤 0为不开启，其他正数为比率
+    'growth_fil': 3, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
@@ -223,7 +223,7 @@
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
     'draw_rate' : 0.35, #回调级别
-    'growth_fil': 1, # 涨势过滤 0为不开启，其他正数为比率
+    'growth_fil': 3, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
