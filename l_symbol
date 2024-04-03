@@ -2,10 +2,10 @@
   
 'robot_1': {
     
-    'start': 0, #0为关闭，1为开启
+    'start': 1, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
-    'symbol': '1000SATS/USDT:USDT', #品种名称
+    'symbol': 'WUSDT/USDT:USDT', #品种名称
     'period':'1m', #周期
     'leverage': 20, #杠杆
     'multiple': 2, #下单倍数，初始1U
