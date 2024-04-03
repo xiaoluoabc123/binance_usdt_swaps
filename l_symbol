@@ -2,7 +2,7 @@
   
 'robot_1': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': '1000SATS/USDT:USDT', #品种名称
@@ -63,7 +63,7 @@
   
 'robot_2': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'LINA/USDT:USDT', #品种名称
@@ -124,7 +124,7 @@
   
 'robot_3': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'MYRO/USDT:USDT', #品种名称
@@ -185,7 +185,7 @@
   
 'robot_4': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'ETHFI/USDT:USDT', #品种名称
@@ -246,7 +246,7 @@
   
 'robot_5': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'WOO/USDT:USDT', #品种名称
@@ -307,7 +307,7 @@
   
 'robot_6': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'RENU/USDT:USDT', #品种名称
@@ -368,7 +368,7 @@
   
 'robot_7': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'HIGH/USDT:USDT', #品种名称
@@ -429,7 +429,7 @@
   
 'robot_8': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'AEVO/USDT:USDT', #品种名称
@@ -490,7 +490,7 @@
   
 'robot_9': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'UNFI/USDT:USDT', #品种名称
@@ -612,7 +612,7 @@
   
 'robot_11': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'BTC/USDT:USDT', #品种名称
@@ -673,7 +673,7 @@
   
 'robot_12': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'ETH/USDT:USDT', #品种名称
@@ -734,7 +734,7 @@
   
 'robot_13': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'BTC/USDC:USDC', #品种名称
