@@ -493,27 +493,27 @@
     'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
-    'symbol': 'UNFI/USDT:USDT', #品种名称
+    'symbol': 'BTC/USDC:USDC', #品种名称
     'period':'1m', #周期
-    'leverage': 20, #杠杆
-    'multiple': 2, #下单倍数，初始1U
+    'leverage': 100, #杠杆
+    'multiple': 1.5, #下单倍数，初始1U
     'direct': 1, #指定交易方向，0为多空，1为多，-1为空
-    'pr_type': 2, #止盈类型：1为亏损加设定止盈率，2为单止盈不叠加亏损，3为移动止盈，4分批止盈
-    'prbull': 5, #多头止盈率
-    'prbear': 5, #空头止盈率
+    'pr_type': 4, #止盈类型：1为亏损加设定止盈率，2为单止盈不叠加亏损，3为移动止盈，4分批止盈
+    'prbull': 0.4, #多头止盈率
+    'prbear': 0.4, #空头止盈率
     'open_type': 'LIMIT', #订单类型
     'timeinforce': 'GTX', #有效方法
     'activationRate': 3, #移动止盈触发盈利率
     'callbackRate': 1, #移动止盈触发止盈回撤率
-    'st_type': 2, #止损类型，0为不止损，1，为策略止损，2为固定止损
+    'st_type': 0, #止损类型，0为不止损，1，为策略止损，2为固定止损
     'st_times': 999999, #最大止损次数
-    'st_rate': 2, #固定止损率
+    'st_rate': 0, #固定止损率
     'li_profit_times': 9999, #全局最大盈利次数
     'li_profit_gaol': 100000000, #全局最大盈利额
-    'add_pos': 2, #加仓，0为不加仓，1，为单次近止损线加仓，2，多次回调加仓
+    'add_pos': 3, #加仓，0为不加仓，1，为单次近止损线加仓，2，多次回调加仓
     'add_mult': 1, #加仓倍数
-    'add_rate': 4, #加仓线，为止损线正向叠加率
-    'add_times': 4, #加仓次数
+    'add_rate': 0.4, #加仓线，为止损线正向叠加率
+    'add_times': 20, #加仓次数
     'add_loss': 0, #亏损次数以上叠加
     'matin': 0, #开启叠加马丁
     'm_type': 1, #叠加马丁类型 1为总计数叠加，2为多空分别计算叠加
@@ -528,7 +528,7 @@
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
     'draw_rate' : 0.35, #回调级别
-    'growth_fil': 3, # 涨势过滤 0为不开启，其他正数为比率
+    'growth_fil': 0, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
@@ -554,27 +554,27 @@
     'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
-    'symbol': '1000SATS/USDT:USDT', #品种名称
+    'symbol': 'ETH/USDC:USDC', #品种名称
     'period':'1m', #周期
-    'leverage': 20, #杠杆
+    'leverage': 100, #杠杆
     'multiple': 2, #下单倍数，初始1U
     'direct': 1, #指定交易方向，0为多空，1为多，-1为空
     'pr_type': 4, #止盈类型：1为亏损加设定止盈率，2为单止盈不叠加亏损，3为移动止盈，4分批止盈
-    'prbull': 5, #多头止盈率
-    'prbear': 5, #空头止盈率
+    'prbull': 0.4, #多头止盈率
+    'prbear': 0.4, #空头止盈率
     'open_type': 'LIMIT', #订单类型
     'timeinforce': 'GTX', #有效方法
     'activationRate': 3, #移动止盈触发盈利率
     'callbackRate': 1, #移动止盈触发止盈回撤率
-    'st_type': 2, #止损类型，0为不止损，1，为策略止损，2为固定止损
+    'st_type': 0, #止损类型，0为不止损，1，为策略止损，2为固定止损
     'st_times': 999999, #最大止损次数
-    'st_rate': 2, #固定止损率
-    'li_profit_times': 9999, #全局最大盈利次数
+    'st_rate': 0, #固定止损率
+    'li_profit_times': 99999, #全局最大盈利次数
     'li_profit_gaol': 100000000, #全局最大盈利额
     'add_pos': 3, #加仓，0为不加仓，1，为单次近止损线加仓，2，多次回调加仓
     'add_mult': 1, #加仓倍数
-    'add_rate': 4, #加仓线，为止损线正向叠加率
-    'add_times': 4, #加仓次数
+    'add_rate': 0.4, #加仓线，为止损线正向叠加率
+    'add_times': 20, #加仓次数
     'add_loss': 0, #亏损次数以上叠加
     'matin': 0, #开启叠加马丁
     'm_type': 1, #叠加马丁类型 1为总计数叠加，2为多空分别计算叠加
@@ -589,7 +589,7 @@
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
     'draw_rate' : 0.35, #回调级别
-    'growth_fil': 3, # 涨势过滤 0为不开启，其他正数为比率
+    'growth_fil': 0, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
     'or_type': 3, # 1，即时下单，2，反向下单
