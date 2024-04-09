@@ -551,7 +551,7 @@
   
 'robot_10': {
     
-    'start': 1, #0为关闭，1为开启
+    'start': 0, #0为关闭，1为开启
     'init': 1, #初始化策略，在关闭时起作用
     'strategy':'oscil_trend', #策略名称
     'symbol': 'ETH/USDC:USDC', #品种名称
