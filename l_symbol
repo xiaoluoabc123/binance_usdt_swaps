@@ -695,7 +695,7 @@
     'li_profit_gaol': 100000000, #全局最大盈利额
     'add_pos': 3, #加仓，0为不加仓，1，为单次近止损线加仓，2，多次回调加仓
     'add_mult': 1, #加仓倍数
-    'add_rate': 0.4, #加仓线，为止损线正向叠加率
+    'add_rate': 0.5, #加仓线，为止损线正向叠加率
     'add_times': 6, #加仓次数
     'add_loss': 0, #亏损次数以上叠加
     'matin': 0, #开启叠加马丁
@@ -710,7 +710,7 @@
     'move_stop_rate': 1, #止损线较于开仓线移动率，与ms_trig_rate协同使用
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
-    'draw_rate' : 0.47, #回调级别
+    'draw_rate' : 0.5, #回调级别
     'growth_fil': 0, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
