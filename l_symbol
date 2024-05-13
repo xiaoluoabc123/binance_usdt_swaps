@@ -39,7 +39,7 @@
     'move_stop_rate': 1, #止损线较于开仓线移动率，与ms_trig_rate协同使用
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
-    'draw_rate' : 0.4, #回调级别
+    'draw_rate' : 0.38, #回调级别
     'growth_fil': 0, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
@@ -588,7 +588,7 @@
     'move_stop_rate': 1, #止损线较于开仓线移动率，与ms_trig_rate协同使用
     'oscil_trend':{
     'open_mode': 1, #1震荡，2趋势，3趋势震荡
-    'draw_rate' : 0.4, #回调级别
+    'draw_rate' : 0.38, #回调级别
     'growth_fil': 0, # 涨势过滤 0为不开启，其他正数为比率
     }, #震荡趋势
     'grid_trading':{ 
